@@ -1,4 +1,16 @@
-.App {
+.app {
   font-family: sans-serif;
   text-align: center;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.error-list {
+  text-align: left;
+  color: red;
+}
+
+.uploaded-message {
+  color: green;
+  text-align: left;
 }
