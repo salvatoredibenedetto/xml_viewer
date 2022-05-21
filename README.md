@@ -1,6 +1,6 @@
 # xml_viewer
 
-## Rewuirements
+## Requirements
 
 - NodeJS (LTS)
 - Npm (LTS)
