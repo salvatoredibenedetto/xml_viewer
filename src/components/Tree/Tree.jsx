@@ -26,7 +26,9 @@ const Tree = () => {
     const uuid = uuidv4();
     return (
       <div key={uuid}>
-        {nodes.type === "text" && <p>{nodes.text}</p>}
+        {nodes.type === "text" && (
+          <p className={"text-content"}>{nodes.text}</p>
+        )}
         <TreeItem nodeId={uuid} label={nodes.name}>
           {Array.isArray(nodes.children)
             ? nodes.children.map((node) => renderTree(node))
